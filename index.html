@@ -1,6 +1,6 @@
 <!--
 Requirements
-[  ] Google Font OR Uploaded Font
+[ yes ] Google Font OR Uploaded Font
 [ yes ] font-size OR font-style 
 [ yes ] Five CSS Rules
 [ yes ] Three Images
@@ -18,6 +18,9 @@ Select ONE Additional Feature to Add
     <title>Unit 4 Project</title>
     <meta charset="utf-8" />
     <style>
+img {
+        border: 8px solid #E75480;
+      }
             body {
       font-size:18px;
       }
@@ -25,7 +28,7 @@ Select ONE Additional Feature to Add
       color: rgb(240, 128, 128);
    }
      h2 {
-      color: rgb(240, 128, 128);
+      color: rgb(240, 128, 128); 
      }
      body {
     background-image: url("https://www.wallshoppe.com/cdn/shop/products/Pixie_Gingham_Wallpaper_by_Sarah_Jessica_Parker_Pink_Design.jpg?v=1652989085")
@@ -39,15 +42,21 @@ Select ONE Additional Feature to Add
                                     th,
                                     td {
                                       border: 1px solid;
-                                      @font-face {
-      font-family: cake;
-      src: url()
+                                      @font-face }
+      
+      @font-face {
+      font-family: cookie;
+      src: url("https://cdn.glitch.global/4995a71f-b116-404e-bd9b-26f4488f871e/Sweety%20Rasty.otf?v=1731000169246")
       }
+      #cookies {
+font-family: cookie;
+font-size: 2em
+}
     </style>
   </head>
   <body>
     <h1>
-      <u>Cookie recipes</u>
+      <u id="cookies">Cookie recipes</u>
     </h1>
 
     <h2>
@@ -55,13 +64,13 @@ Select ONE Additional Feature to Add
     </h2>
     <img
       src="https://houseofnasheats.com/wp-content/uploads/2019/01/Red-Velvet-White-Chocolate-Chip-Cookies-9.jpg"
-      width="200"
-      <p
-    />
+      width="200" />
+      <p>
     <ul>
-      <li>Time: 1hr 30mins</li>
-      <li>Serves: 15</li>
+      <li>Time: 1hr 30mins<br></li>
+      <li>Serves: 15<br></li>
     </ul>
+    </p>
     <table>
       <thead>
         <tr>
